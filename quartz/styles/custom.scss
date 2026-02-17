@@ -14,5 +14,10 @@
 }
 
 :root {
-    --bodyFont: 'Work Sans', sans-serif !important;
+    --bodyFont: 'Crimson Pro', serif !important;
+}
+
+/* Forzamos los headers porque Quartz no siempre usa --headerFont */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif !important;
 }

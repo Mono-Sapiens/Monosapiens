@@ -97,6 +97,13 @@ export default (() => {
             return resource
           }
         })}
+
+      <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Cormorant+Garamond:wght@500;700&display=swap"
+        rel="stylesheet"
+      />
+
+
       </head>
     )
   }
