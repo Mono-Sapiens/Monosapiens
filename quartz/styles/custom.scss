@@ -1,3 +1,18 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+:root[saved-theme=dark] {
+    --secondary: #f08080 !important;
+    --tertiary: #fbc4ab !important;
+    --textHighlight: #ffdab9 !important;
+}
+
+:root[saved-theme=light] {
+    --secondary: #f08080 !important;
+    --tertiary: #fbc4ab !important;
+    --textHighlight: #ffdab9 !important;
+}
+
+:root {
+    --bodyFont: 'Work Sans', sans-serif !important;
+}
